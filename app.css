@@ -27,6 +27,12 @@ ul {
   list-style-type: none;
 }
 
+section > img {
+  border-radius: 12%;
+  height: 40%;
+  width: 40%;
+}
+
 #ingredienser {
   margin-left: 520px;
   margin-right: 520px;
@@ -34,7 +40,6 @@ ul {
 
 #image {
   background-color: white;
-  size: 50%;
   border-style: none;
 }
 
