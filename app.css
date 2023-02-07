@@ -3,11 +3,19 @@ body {
   background-color: white;
 }
 
+header {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
 h1 {
-  font-size: 8em;
+  font-size: 5em;
   font-weight: bolder;
   text-decoration: overline underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 0.4em;
 }
 
 ul {
@@ -16,4 +24,26 @@ ul {
 
 ul li {
   list-style-position: inside;
+  list-style-type: none;
+}
+
+.item1 {
+  grid-area: myBeskrivelse;
+}
+
+.grid-container {
+  display: grid;
+  grid: 200px;
+}
+
+#beskrivelse {
+  background-color: khaki;
+}
+
+#ingredienser {
+  background-color: brown;
+}
+
+#fremgangsmetode {
+  background-color: olive;
 }
