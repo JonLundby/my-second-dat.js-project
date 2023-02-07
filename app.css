@@ -1,49 +1,43 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
+  font-family: monospace;
 }
 
 header {
   text-align: center;
+  outline-style: dotted;
+  color: brown;
 }
 
-section {
+h3 {
+  font-family: cursive;
   text-align: center;
 }
 
-h1 {
-  font-size: 5em;
-  font-weight: bolder;
-  text-decoration: overline underline;
-  text-underline-offset: 0.4em;
+section {
+  background-color: yellow;
+  padding: 2px;
+  margin: 5px;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 5px;
+  text-align: center;
 }
 
 ul {
-  padding-left: 0;
-}
-
-ul li {
-  list-style-position: inside;
   list-style-type: none;
 }
 
-.item1 {
-  grid-area: myBeskrivelse;
-}
-
-.grid-container {
-  display: grid;
-  grid: 200px;
-}
-
-#beskrivelse {
-  background-color: khaki;
-}
-
 #ingredienser {
-  background-color: brown;
+  margin-left: 520px;
+  margin-right: 520px;
 }
 
-#fremgangsmetode {
-  background-color: olive;
+#image {
+  background-color: white;
+  size: 50%;
+  border-style: none;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
