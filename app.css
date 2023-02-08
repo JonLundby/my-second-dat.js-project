@@ -13,6 +13,19 @@ h3 {
   text-align: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: none;
+}
+
+.grid-item-img {
+  border: none;
+}
+
 section {
   background-color: yellow;
   padding: 2px;
@@ -25,8 +38,9 @@ section {
 
 ul {
   list-style-type: none;
+  text-align: left;
 }
-
+/*
 section > img {
   border-radius: 12%;
   height: 40%;
@@ -44,7 +58,7 @@ section > img {
   background-color: white;
   border-style: none;
 }
-
+*/
 footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
