@@ -13,6 +13,10 @@ h3 {
   text-align: center;
 }
 
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -59,6 +63,3 @@ section > img {
   border-style: none;
 }
 */
-footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
