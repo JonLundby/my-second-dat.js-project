@@ -20,14 +20,15 @@ footer {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   padding: 10px;
 }
 .grid-item {
-  border: none;
+  padding: 2px;
 }
 
 .grid-item-img {
-  border: none;
+  text-align: center;
 }
 
 section {
@@ -57,9 +58,8 @@ section > img {
   font-weight: bolder;
   font-style: oblique;
 }
-
+*/
 #image {
   background-color: white;
   border-style: none;
 }
-*/
