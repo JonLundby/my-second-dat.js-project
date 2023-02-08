@@ -36,6 +36,8 @@ section > img {
 #ingredienser {
   margin-left: 520px;
   margin-right: 520px;
+  font-weight: bolder;
+  font-style: oblique;
 }
 
 #image {
