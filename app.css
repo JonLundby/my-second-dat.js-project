@@ -14,22 +14,40 @@ h3 {
 main {
   display: grid;
   grid-template-areas:
-    "header header"
-    "beskrivelse fremgangsmetode"
-    "image ingredientser"
-    "footer footer";
-    grid-template-columns: 50vh 50vh;
-    grid-template-rows: 20vh 35vh 35vh 10vh;
+    "header"
+    "beskrivelse"
+    "ingredienser"
+    "fremgangsmetode"
+    "image"
+    "footer";
+  grid-template-rows: 10vh;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  main {
+    grid-template-areas:
+      "header header"
+      "beskrivelse image"
+      "ingredienser image"
+      "fremgangsmetode image"
+      "footer footer";
+    grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+  }
 }
 
 ul {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
 
 header {
+  grid-area: header;
   background-color: aliceblue;
-  text-align: center;
   color: brown;
   font-size: 2em;
 }
@@ -42,7 +60,6 @@ header {
 #ingredienser {
   background-color: chartreuse;
   grid-area: ingredienser;
-  height: fit-content;
 }
 
 #fremgangsmetode {
@@ -53,9 +70,9 @@ header {
 #image {
   grid-area: image;
   background-color: white;
-  image-resolution: 10%;
 }
 
 footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-area: footer;
 }
