@@ -29,10 +29,10 @@ main {
     grid-template-areas:
       "header header"
       "beskrivelse image"
-      "ingredienser image"
-      "fremgangsmetode image"
+      "fremgangsmetode ingredienser"
       "footer footer";
-    grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+    grid-template-rows: 15vh 35vh 35vh 2vh;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -42,18 +42,26 @@ ul {
 }
 
 img {
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 header {
   grid-area: header;
   background-color: aliceblue;
   color: brown;
-  font-size: 2em;
+  font-size: 1em;
+}
+
+p {
+  padding: 20px 20px 20px 20px;
 }
 
 #beskrivelse {
-  background-color: cadetblue;
+  background-color: chocolate;
   grid-area: beskrivelse;
 }
 
@@ -63,13 +71,13 @@ header {
 }
 
 #fremgangsmetode {
-  background-color: darkgreen;
+  background-color: cyan;
   grid-area: fremgangsmetode;
 }
 
 #image {
   grid-area: image;
-  background-color: white;
+  background-color: darkgreen;
 }
 
 footer {
